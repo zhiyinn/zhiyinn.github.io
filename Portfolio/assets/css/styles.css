@@ -1,0 +1,93 @@
+/* carousel sizing and images ================================================================================*/
+.carousel .carousel-pic { 
+    width: 375px;
+    height: 250px;
+    border-radius: 50px;
+    border: 3px solid peru;
+}
+
+.carousel .carousel-item {
+    width: 375px;
+    height: 250px;
+}
+
+.carousel .carousel-item h5 {
+    position: relative;
+    bottom: 105px;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(240, 255, 24);
+    text-align: center;
+    text-shadow: 1px 1px 2px black; 
+    background: rgba(0, 195, 255, 0.5);
+    border-bottom: 0;
+  }
+
+.carousel .indicators .indicator-item {
+    display: inline-block;
+    margin: 10px;
+    width: 12px;
+    height: 12px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color:white;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: yellow;
+}
+
+/* carousel arrows ============================================================================================ */
+.panel-arrows .right{
+    position: fixed;
+    top: 50%;
+    right: 0%;
+}
+
+.panel-arrows .left{
+    position: fixed;
+    top: 50%;
+    left: 0%;
+}
+
+.middle-indicator{
+    position:absolute;
+    top:50%;
+}
+
+.middle-indicator-text{
+    font-size: 4.2rem;
+}
+
+a.middle-indicator-text{
+    color:black;
+}
+
+/* div spacing ============================================================================================== */
+.carousel-center {
+    margin: 10px;
+}
+
+.panel-description{
+    padding: 0px 20px;
+}
+
+/* body and navbar ========================================================================================== */
+body {
+    background: url(../images/background.png);
+}
+
+nav {
+    background: url(../images/navbar.png);
+}
+
+nav .brand-logo {
+    line-height: 0%;
+    color: black;
+}
