@@ -130,7 +130,7 @@ p {
 
 #experience,
 #education {
-  background: #E9724C;
+  background: #BB999E;
 }
 
 .background-image {
@@ -398,30 +398,6 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Service section              
------------------------------------------*/
-
-#service {
-  background: #E9724C;
-}
-
-#service p {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-#service .service-thumb {
-  padding: 52px 22px 52px 22px;
-}
-
-#service .service-thumb .fa {
-  font-size: 42px;
-  padding-bottom: 22px;
-}
-
-
-
-/*---------------------------------------
     Experience section              
 -----------------------------------------*/
 
@@ -469,47 +445,12 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
-
-
-/*---------------------------------------
-   Quotes section              
------------------------------------------*/
-
-#quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    position: relative;
-    padding: 100px 0px;
-}
-
-#quotes .overlay {
-    background: #121212;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    opacity: 0.7;
-}
-
-#quotes .fa {
-  font-size: 42px;
-  margin-top: 32px;
-  margin-bottom: 22px;
-}
-
-#quotes p {
-  padding-top: 32px;
-}
-
-
 /*---------------------------------------
     Contact section              
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: #BB999E;
 }
 
 #contact .contact-form,
@@ -569,16 +510,6 @@ a:hover, a:active, a:focus {
 
 #contact .fa {
   padding-right: 10px;
-}
-
-
-
-/*---------------------------------------
-   Footer section              
------------------------------------------*/
-
-footer {
-    padding: 140px 0px;
 }
 
 
